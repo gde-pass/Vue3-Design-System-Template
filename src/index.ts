@@ -4,7 +4,7 @@ import * as components from "./components/index";
 import { setVueInstance } from "./utils/config/index";
 
 const install: Exclude<Plugin["install"], undefined> = (
-  instance: Application
+  instance: Application,
 ) => {
   setVueInstance(instance);
   for (const componentKey in components) {

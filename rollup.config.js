@@ -127,7 +127,7 @@ const componentsFolder = "components/";
 const components = fs
   .readdirSync(baseFolder + componentsFolder)
   .filter((f) =>
-    fs.statSync(path.join(baseFolder + componentsFolder, f)).isDirectory()
+    fs.statSync(path.join(baseFolder + componentsFolder, f)).isDirectory(),
   );
 
 const entriespath = {

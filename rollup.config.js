@@ -1,22 +1,24 @@
 import fs from "fs";
 import path from "path";
-import vue from "rollup-plugin-vue";
+
 import alias from "@rollup/plugin-alias";
 import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 import replace from "@rollup/plugin-replace";
 import babel from "@rollup/plugin-babel";
+import url from "@rollup/plugin-url";
 import PostCSS from "rollup-plugin-postcss";
+import vue from "rollup-plugin-vue";
+import { terser } from "rollup-plugin-terser";
 import { visualizer } from "rollup-plugin-visualizer";
+import typescript from "rollup-plugin-typescript2";
+
 import simplevars from "postcss-simple-vars";
 import postcssImport from "postcss-import";
-import minimist from "minimist";
 import postcssUrl from "postcss-url";
-import url from "@rollup/plugin-url";
 import nested from "postcss-nested";
-import { terser } from "rollup-plugin-terser";
+import minimist from "minimist";
 import autoprefixer from "autoprefixer";
-import typescript from "rollup-plugin-typescript2";
 import tailwindcss from "tailwindcss";
 
 const tailwindConfig = require("./tailwind.config.js");

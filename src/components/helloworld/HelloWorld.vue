@@ -5,7 +5,6 @@
 </template>
 
 <script lang="ts">
-// Can't use setup + style tag scoped until https://github.com/vuejs/vue-loader/issues/1915 is resolved
 import { PropType, defineComponent } from "vue";
 
 export default defineComponent({

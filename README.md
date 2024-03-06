@@ -3,7 +3,7 @@
 **Important Technology Used:**\
 [Vue 3](https://github.com/vuejs/vue-next)\
 [Typescript](https://github.com/microsoft/TypeScript)\
-[TailwindCSS](https://tailwindcss.com/)
+[TailwindCSS](https://tailwindcss.com/)\
 [Storybook](https://storybook.js.org/)\
 [Jest](https://jestjs.io/)\
 [SCSS](https://sass-lang.com/)\
@@ -130,6 +130,10 @@ yarn storybook
 ```
 yarn build:storybook
 ```
+
+✨You can find the deployed Storybook from main branch [here](https://gde-pass.github.io/Vue3-Design-System-Template/)✨
+
+> If you want to setup automatic storybook github pages deploy with github actions on your repo please visit the following [documentation](https://github.com/bitovi/github-actions-storybook-to-github-pages)
 
 ### Husky
 

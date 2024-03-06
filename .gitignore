@@ -3,6 +3,9 @@ node_modules
 /dist
 /testumdbuild
 
+# Storybook
+storybook-static
+
 # local env files
 .env.local
 .env.*.local

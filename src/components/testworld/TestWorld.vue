@@ -6,15 +6,13 @@
   </div>
 </template>
 
-<script lang="ts">
-import { PropType, defineComponent } from "vue";
+<script setup lang="ts">
+import { PropType } from "vue";
 
-export default defineComponent({
-  props: {
-    age: {
-      type: Number as PropType<number>,
-      required: true,
-    },
+defineProps({
+  age: {
+    type: Number as PropType<number>,
+    required: true,
   },
 });
 </script>

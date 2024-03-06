@@ -9,8 +9,6 @@ const Plugin = {
   },
 };
 
-// use(Plugin);
-
 export default Plugin;
 
 export { HelloWorld };

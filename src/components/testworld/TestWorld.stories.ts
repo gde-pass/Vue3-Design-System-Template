@@ -12,6 +12,6 @@ type Story = StoryObj<typeof TestWorld>;
 
 export const Default: Story = {
   args: {
-    msg: "Test World !",
+    age: 42,
   },
 };

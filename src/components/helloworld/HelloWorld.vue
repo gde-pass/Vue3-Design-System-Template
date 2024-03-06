@@ -5,12 +5,13 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+// Can't use setup + style tag scoped until https://github.com/vuejs/vue-loader/issues/1915 is resolved
+import { PropType, defineComponent } from "vue";
 
 export default defineComponent({
   props: {
     msg: {
-      type: String,
+      type: String as PropType<string>,
       required: true,
     },
   },

@@ -2,11 +2,11 @@ import { mount } from "@vue/test-utils";
 import TestWorld from "@/components/testworld/TestWorld.vue";
 
 describe("TestWorld.vue", () => {
-  it("renders props.msg when passed", () => {
-    const msg = "new message";
+  it("renders props.age when passed", () => {
+    const age = 42;
     const wrapper = mount(TestWorld, {
-      props: { msg },
+      props: { age },
     });
-    expect(wrapper.text()).toMatch(msg);
+    expect(wrapper.text()).toMatch(age.toString());
   });
 });

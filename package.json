@@ -86,7 +86,6 @@
     "postcss-html": "^1.6.0",
     "postcss-import": "16.0.1",
     "postcss-inline-svg": "^6.0.0",
-    "postcss-loader": "^8.1.0",
     "postcss-nested": "^6.0.1",
     "postcss-simple-vars": "7.0.1",
     "postcss-url": "^10.1.3",
@@ -103,16 +102,13 @@
     "rollup-plugin-visualizer": "^5.12.0",
     "rollup-plugin-vue": "^6.0.0",
     "sass": "^1.71.0",
-    "sass-loader": "^14.1.0",
     "storybook": "^7.6.16",
-    "style-loader": "^3.3.4",
     "stylelint": "^16.2.1",
     "stylelint-config-recommended-scss": "^14.0.0",
     "stylelint-config-recommended-vue": "^1.5.0",
     "tailwindcss": "^3.4.1",
     "ts-jest": "26",
     "typescript": "4.9",
-    "vue-jest": "5.0.0-alpha.10",
-    "vue-loader": "^17.4.2"
+    "vue-jest": "5.0.0-alpha.10"
   }
 }
